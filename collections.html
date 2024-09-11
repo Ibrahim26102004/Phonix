@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOENIX</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="./Ecommerce.css">
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- link google fonts awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- logo -->
+    <link rel="icon" href="https://t4.ftcdn.net/jpg/05/78/32/07/360_F_578320714_v3fBS4da16Tuhe7neyko8HEKvrT39tMr.jpg">
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar">
+        <!-- <h1>PHOENIX</h1> -->
+        <div class="logo">
+            <img src="./phoenix-bird-gradient-logo_226143-original.jpg" alt="" style="width: 120px; height: 50px;">
+        </div>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="./Ecommerce.html">Home</a></p>
+            <p class="navbar-link"><a href="./collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="./contant.html">Contact Us</a></p>
+        </div>
+        <div class="navbar-manu-tagle">
+            <i class="fa-solid  fa-bars" onclick="shownavbar()"></i>
+        </div>
+    </nav>
+    <nav class="side-navbar" id="sidenavbar">
+        <p style="text-align: right;"><i class="fa-solid fa-xmark" onclick="closenavbar()"></i></p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="./Ecommerce.html">Home</a></p>
+            <p class="side-navbar-link"><a href="./collections.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="./contant.html">Contact Us</a></p>
+        </div>
+    </nav>
+
+    <!-- search box -->
+
+    <div class="box">
+        <div class="search-box" id="search">
+            <form>
+                <input type="text" class="search" placeholder="search">
+                <!-- <i id="madnifying "class="fa-solid fa-magnifying-glass"></i> -->
+            </form>
+        </div>
+    </div>
+
+    <!-- products -->
+
+    <div class="product-boxs" id="productbox">
+        <div class="product-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIn1LPNsZwC31bMC1E6HxZ_2tB0uOw0pj0Nw&s"
+                width="300px" height="300px" alt="">
+            <p>Belt</p>
+        </div>
+        <div class="product-box">
+            <img src="https://i0.wp.com/yeskiya.com/wp-content/uploads/2024/06/1A301BR-VINSAGE-Photoroom.jpg?fit=1906%2C2000&ssl=1"
+                width="300px" height="300px" alt="">
+            <p>Wallet</p>
+        </div>
+        <div class="product-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcrRVXfa4dpPhEv-Q_aEyNcUg1FGSmx2xGHzQiWpLCFARM7mM6Igsh-iDqIc4C5tTYEok&usqp=CAU"
+                width="300px" height="300px" alt="">
+            <p>shews</p>
+        </div>
+        <div class="product-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIC93M2R3HHzgeJPfsokCxCnaYJsNrq9MFSS4dKINJXob2kIxWDsHrCcGze-Xb6YGxjaw&usqp=CAU"
+                width="300px" height="300px" alt="">
+            <p>Watch</p>
+        </div>
+        <div class="product-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLveTmESXrdN9VBrdnhJgnBQXZL3tTMGXvNQ&s"
+                width="300px" height="300px" alt="">
+            <p>nackel</p>
+        </div>
+        <div class="product-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEB9sOYYoVq_p39BmLaznCyl6ONDLvF-W0E00aiuO334aaZAAq8ueNssa0FT8TzoqJ_WE&usqp=CAU"
+                width="300px" height="300px" alt="">
+            <p>Bracelet</p>
+        </div>
+        <div class="product-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnFdBg3PB9CLiPXJkuzimOCBhml7KaH47FdQ&s"
+                width="300px" height="300px" alt="">
+            <p>T-Shirt</p>
+        </div>
+        <div class="product-box">
+            <img src="https://images-cdn.ubuy.co.in/6539a3def111b96b3522ff76-aevogue-sunglasses-for-men-goggle-alloy.jpg"
+                width="300px" height="300px" alt="">
+            <p>Sunglass</p>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <h1>Phoenix</h1>
+        <p>The standard chunk of Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, dolores.</p>
+        <i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook" style="padding: 10px;"></i><i
+            class="fa-brands fa-twitter" style="padding: 10px;"></i>
+        <p>@2024Phoenix.com</p>
+    </div>
+
+
+    <script src="./Ecommerce.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    background: url("https://img.lovepik.com/bg/20240117/High-Quality-Phoenix-Bird-in-Flames-Wallpapers-in-HD_2774579_wh860.jpg!/fw/860");
+    background-repeat: no-repeat;
+    background-size:100%;/* background-color: rgb(5, 0, 37);
+    color: white; */
+}
+/* h1{
+    background: url("860.jpeg") 50% 50%;
+    background-size:cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+} */
+
+.login {
+    /* width: 40%;
+    height: 70%; */
+    /* background-color: rgb(5, 0, 37); */
+    color: white;
+    text-align: center;
+    padding: 3em;
+    border-radius: 1em;
+}
+
+.int {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    margin: 1em;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid white 2px;
+}
+
+.input {
+    padding: 1em;
+    border: none;
+    border-radius: 1em;
+    outline: none;
+    background-color:transparent;
+    color: white;
+}
+
+.btn {
+    padding: 1em;
+    margin-top: 5px;
+    border-radius: 1em;
+    background-color: snow;
+    font-weight: 400;
+    width: 50%;
+    background-color: transparent;
+    border: solid white 2px;
+
+}
